@@ -1,7 +1,12 @@
 $ef-blue: #0335B7;
+$site-dark: #343a40;
 
 $theme-colors: (
-    "ef-blue": $ef-blue);
+    "ef-blue": $ef-blue, 
+    "site-dark": $site-dark
+);
+
+$link-color: $site-dark;
 
 .site-date-overlay {
     background: #35383b;
@@ -9,5 +14,9 @@ $theme-colors: (
     float: right;
 }
 
+.parallax-container {
+    height: 450px;
+    background: transparent;
+}
     
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
