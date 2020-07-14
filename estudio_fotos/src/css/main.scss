@@ -1,0 +1,7 @@
+$ef-blue: #022EA7;
+
+$theme-colors: (
+    "ef-blue": $ef-blue
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
