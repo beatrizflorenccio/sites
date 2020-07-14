@@ -1,7 +1,13 @@
-$ef-blue: #022EA7;
+$ef-blue: #0335B7;
 
 $theme-colors: (
-    "ef-blue": $ef-blue
-);
+    "ef-blue": $ef-blue);
 
+.site-date-overlay {
+    background: #35383b;
+    padding: 14px;
+    float: right;
+}
+
+    
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
