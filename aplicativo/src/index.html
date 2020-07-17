@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="./scss/custom.css">
     <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./scss/main.css">
     <link rel="stylesheet" href="../fontawesome/css/all.min.css">
 
     <title>Sevensoft</title>
@@ -16,21 +16,23 @@
 
 <body>
     <header>
-        <div class="container-fluid">
-
+        <div class="container-fluid barra-texto px-0">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">SEVENSOFT</a>
+                <a class="navbar-brand logo-titulo" href="#">
+                    SEVENSOFT
+                </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav mr-auto ml-auto">
+                <div class="collapse navbar-collapse links-barra" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
                         <a class="nav-item nav-link active mx-3" href="#">Início</a>
-                        <a class="nav-item nav-link mx-4" href="#">Sobre</a>
-                        <a class="nav-item nav-link mx-4" href="#">Serviços</a>
-                        <a class="nav-item nav-link mx-4" href="#">Contato</a>
+                        <a class="nav-item nav-link mx-4" href="#">Lorem</a>
+                        <a class="nav-item nav-link mx-4" href="#">Amet</a>
+                        <a class="nav-item nav-link mx-4" href="#">Ipsum</a>
                     </div>
 
                     <div class="navbar-nav ml-auto">
@@ -45,11 +47,31 @@
                         </a>
                     </div>
                 </div>
-
             </nav>
-
         </div>
     </header>
+
+    <main>
+        <div class="container">
+            <div class="row mt-5 pt-4">
+                <div class="col-lg-5 my-auto">
+                    <h4 class="cor-fonte-h4 mb-3">LOREM IPSUM AMET VEL</h4>
+                    <p class="cor-fonte-p text-justify mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Distinctio vel, quidem possimus ea hic architecto non voluptatum quisquam iusto eos iure,
+                        officiis animi ducimus totam. Perferendis rem suscipit eaque ratione? Lorem ipsum dolor, sit
+                        amet consectetur adipisicing elit. Facilis accusamus exercitationem necessitatibus dolore neque
+                        nostrum incidunt nihil dolor numquam obcaecati? Eveniet aperiam error architecto libero nam
+                        sint, at labore rerum!</p>
+                    <button type="button" class="btn botao-inicio">Saiba mais</button>
+                </div>
+
+                <div class="col-lg-7">
+                    <img src="./imagens/equipe.jpg" class="img-fluid" alt="foto de uma equipe">
+                </div>
+            </div>
+        </div>
+    </main>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

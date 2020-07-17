@@ -1,4 +1,8 @@
+$mb-blue: #054B89;
+
+$theme-colors: (
+    "mb-blue": $mb-blue, 
+);
+
+
 @import "../../bootstrap/scss/bootstrap.scss";
-@import "../../bootstrap/scss/functions.scss";
-@import "../../bootstrap/scss/variables.scss";
-@import "../../bootstrap/scss/mixins.scss";
